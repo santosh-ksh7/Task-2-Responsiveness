@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: grid;
+            place-content: center;
+            min-height: 100vh;
+        }
+        img{
+            width: 300px;
+            height: 300px;
+            object-fit: cover;
+        }
+        .main{
+            width: 300px;
+            overflow: hidden;
+            border-radius: 15px;
+            background-color: rgb(28 25 56);
+        }
+        h1{
+            text-align: center;
+            color: white;
+            
+        }
+        span{
+            color: purple;
+        }
+        .des{
+            text-align: center;
+            color: whitesmoke;
+            margin-bottom: 15px;
+        }
+        .sec{
+            padding: 10px;
+        }
+        h3{
+            text-align: center;
+            color: white;
+            margin-bottom: 0px;
+        }
+        .dd{
+            margin-top: 5px;
+            font-weight: bold;
+            color: whitesmoke;
+            text-align: center;
+            font-size: smaller;
+        }
+
+        @media (min-width: 950px){
+            .main{
+                display: flex;
+                flex-direction: row-reverse;
+                width: 700px;
+                overflow: hidden;
+            }
+            .sec{
+                padding: 15px;
+            }
+            .aa{
+                display: flex;
+                flex-direction: row;
+                padding: 15px;
+                justify-content: space-evenly;
+            }
+            img{
+                height: 335.562px;
+            }
+            h3{
+                text-align: left;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <img src="https://www.betterteam.com/images/office-assistant-job-description-6100x4067-2020124.jpeg?crop=4:3,smart&width=1200&dpr=2">    
+        <div class="sec">
+            <h1>Get <span>insights</span> that helps your business grow.</h1>
+            <p class="des">Discover the benifits of data analytics and make better decisions regarding revenue, customer experience, and overall efficiency.</p>
+            <div class="aa">
+                <div>
+                    <h3>10k+</h3>
+                    <p class="dd">COMPANIES</p>
+                </div>
+                <div>
+                    <h3>314</h3>
+                    <p class="dd">TEMPLATES</p>
+                </div>
+                <div>
+                    <h3>12M+</h3>
+                    <p class="dd">QUERIES</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
